@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit:wght@300&family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@0,300;1,400;1,500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit:wght@300&family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@0,300;1,400;1,500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+    <style>
+        body {
+            font-family: 'Hedvig Letters Serif', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #ffffff;
+        }
+
+        header {
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0;
+        }
+
+        header h1 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: rgba(104, 119, 155, 0.404);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #f8f9fa; 
+        }
+
+        .dropdown-toggle::after {
+            display: none; 
+        }
+
+        .dropdown-menu {
+            background-color: rgb(10, 17, 11);
+            border: none;
+            border-radius: 0;
+        }
+
+        .dropdown-item {
+            color: #ffffff;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(255, 255, 255, 0.664);
+        }
+        .navbar-nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 767px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        body {
+            font-family: 'Hedvig Letters Serif', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #000000;
+        }
+
+        .title {
+            text-align: center;
+            padding: 33px 0;
+            background-color: #8d6b37;
+            color: #ffffff;
+        }
+
+        .title h1 {
+            font-size: 3rem;
+            margin-bottom: 9px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            background: rgba(52, 58, 64, 0.7);
+        }
+
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="pagdurusa-main.png" alt="Header Image" class="img-fluid"></h1>
+        </header>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="extracurricular.html">Extracurricular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acad page.html">Academic Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <div class="title">
+        <h1>English Course</h1>
+    </div>
+
+    <div class="gallery">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="asonnet.jpg" alt="Artwork 1">
+            <div class="overlay">
+                <h3> Lovestruck </h3>
+                <p>
+                    <br> Stayed at centennial park's grasp 'til sunset 
+                    <br> Longed to find a love, sweet and rare 
+                    <br> Wanted binded hearts, admiration beyond compare 
+                    <br> United souls that in destiny were set <br>
+                    
+                    <br> In realms where melodies and memories met 
+                    <br>An unseen thread wove tales of love and care 
+                    <br> A cosmic dance, time and space declare 
+                    <br> Feelings profound, a mystery was set <br>
+                    
+                    <br> Through time's sweet springs 
+                    <br> Emotions and futures align 
+                    <br> The heart's story clings <br>
+                    
+                    <br> A soulmate's gaze, a fateful thing 
+                    <br> As daylight ends and the stars begin to shine 
+                    <br> Love's power unfolds on an invisible string <br>
+                    
+                </p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="asonnet2.jpg" alt="Artwork 2">
+            <div class="overlay">
+                <h3> A New Beginning </h3>
+                <p>
+                    
+                    In life, hopes and heartache play 
+                    <br> A melody unfolds, a tale untold 
+                    <br> Of love that's lost, in shadows cold and gray 
+                    <br> Yet, new beginnings hold <br>
+                    
+                    
+                    <br> To mend what's torn, to heal the wounds of yore 
+                    <br> Requires courage, as a new chapter will start 
+                    <br> With the strength to begin, to hope once more 
+                    <br> To trust again, and to allow love inside one’s heart <br>
+                    
+                    
+                    <br> The past may still linger in the mind 
+                    <br> Yet in the present's light, genuine love is given 
+                    <br> As pain and regretful decisions are left behind <br>
+                    <br> Hearts entwine and promises are written 
+                    <br>This bond as testament to hearts that found romance 
+                    <br> Two people who chose to give love a second chance 
+                    </p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="psonnet.jpg" alt="Artwork 3">
+            <div class="overlay">
+                <h3>For you, I’ll Sacrifice</h3>
+                <p>The day I fell in love, I’ll always remember<br>
+                    Put in pen and paper, that memory I
+                    cherished<br>
+                    Now, in red ink, it’s been covered and
+                    tarnished<br>
+                    I can’t forget so this pain I shall just bear<br>
+                    The past I always recall, this heartache
+                    won’t wither<br>
+                    Voices stating your name, refuse to vanish<br>
+                    I've fallen mad, I know, I feel so foolish<br>
+                    It’s all in my head, an illusion, let me
+                    recover<br>
+
+                    <br> I know I'm not perfect, this I won't dispute<br>
+                    Yet what you want is the best things in life's
+                    view<br>
+                    To have your ideal ending, I’ll endure for
+                    you<br>
+                    To give you the situation I find best and
+                    perfect<br>
+                    I’ll let you go, even if my love is not yet due<br>
+                    Your wish and dream, I'll make it come true</p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+            <img src="psonnet2.jpg" alt="Artwork 4">
+            <div class="overlay">
+                <h3>Finding Us In Her Embrace</h3>
+
+                <p>In mine sorrow, my pain, so true, <br>
+                    But In her, I find a place of light, <br>
+                    As I find love lost, I find one new,<br>
+                    Amidst all of the darkness within mine sight.<br>
+
+                    <br>Yet why is it us that I remember?<br>
+                    When I love this girl, so perfect and fair,<br>
+                    Perfect she is, it isn’t what you were<br>
+                    What can I do, should I cry and bare?<br>
+
+                    <br>When thou art far from view in my eyes,<br>
+                    Our days with each other, oh how I recall,<br>
+                    In another's touch, my heart just lies,<br>
+                    I cannot move on, I try but I fall<br>
+
+                    <br>My time with her, may be a moment so
+                    sweet,<br>
+                    But I’m just finding in her the past I want to
+                    meet</p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item">
+            <img src="hsonnet.jpg" alt="Artwork 5">
+            <div class="overlay">
+                <h3>Loveground</h3>
+                <p>
+                    Don’t leave my heart in this silly game
+                    <br> Your love that once was true was just all an act
+                    <br> Yet something's twisted, it is unpleasant
+                    <br> You, once my solace, it’s such a shame <br>
+                    <br> In shadows deep, wrongs have found their place
+                    <br> Unfinished past whisper to the present
+                    <br> Trust shattered, it is apparent
+                    <br> Feelings of hauntedness can be seen on my face <br>
+                    <br> I stood and gazed as you walked away
+                    <br> In nothingness, I grasp at all your lies
+                    <br> Yet every uttered word, I mean until today <br>
+                    <br> He seeks to take the ache in my past ties
+                    <br> Yet in my heart, it’s you all the way
+                    <br> Wishes he were you, who gives the butterflies.
+                </p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item">
+            <img src="hsonnet2.jpg" alt="Artwork 6">
+            <div class="overlay">
+                <h3>Sparks</h3>
+                <p>
+                    The Goo Goo Dolls are now lost in my own memories
+                    <br> As you should be, a distant, faded hue
+                    <br> Yet, I can remember even after centuries
+                    <br> Echoing how deeply I truly miss you <br>
+                    <br> Perchance I'm not all of what they expect
+                    <br> Life will lose its romance, when I don’t have the will to defy
+                    <br> A swift learner, always perfect
+                    <br> Yet even as a backburner, I will always try <br>
+                    <br> Pathetic, we both are and that will remain
+                    <br> Lost in uncertainty
+                    <br> I like you, it’s insane
+                    <br> A wounded tone, all I hear is absurdity <br>
+                    <br> By your side, I will stay
+                    <br> Alive I am when I only sense that you won’t be stray
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

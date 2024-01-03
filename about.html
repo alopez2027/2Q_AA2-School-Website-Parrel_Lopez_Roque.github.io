@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style (2).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Pagdurusa University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit:wght@300&family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@0,300;1,400;1,500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+
+<style>
+      body {
+            font-family: 'Hedvig Letters Serif', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #ffffff;
+        }
+
+        header {
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0;
+        }
+
+        header h1 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: rgba(104, 119, 155, 0.404);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #f8f9fa; 
+        }
+
+        .dropdown-toggle::after {
+            display: none; 
+        }
+
+        .dropdown-menu {
+            background-color: rgb(10, 17, 11);
+            border: none;
+            border-radius: 0;
+        }
+
+        .dropdown-item {
+            color: #ffffff;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(255, 255, 255, 0.664);
+        }
+        .navbar-nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 767px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url('aboutpic.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content h2 {
+  font-size: 32px;
+  padding: 5px;
+  color: rgb(15, 21, 39);
+}
+
+.content p {
+  font-size: 22px;
+  color: white;
+}
+
+
+/* Menu */
+
+.about {
+  background-color:#272c47;
+;
+  width: 100%;
+}
+
+.about .about-header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-header h3 {
+  color: rgb(181, 180, 214);
+  padding: 5px 20px;
+}
+
+.about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  background-color: #8aa1a2;
+}
+
+.about .about-content .tao1,
+.tao2,
+.tao3 {
+  width: 250px;
+}
+
+.about .about-content .tao1 .tao1-image img {
+  border-radius: 50%;
+}
+
+.about .about-content .tao2 .tao2-image img {
+  border-radius: 50%;
+}
+
+.about .about-content .tao3 .tao3-image img {
+  border-radius: 50%;
+}
+
+.about .about-content .tao1-body,
+.tao2-body,
+.tao3-body {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about .about-content .tao1-body h2,
+.tao2-body h2,
+.tao3-body h2 {
+  color: rgb(49, 62, 88);
+  text-align: center;
+}
+
+.about .about-content .tao1-body h5,
+.tao2-body h5,
+.tao3-body h5 {
+  margin-top: 10px;
+  color: white;
+}
+
+@media(max-width: 800px) {
+
+    .about .about-content .tao1,
+    .tao2,
+    .tao3 {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .content h2 {
+        font-size: 23px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+}
+@media(max-width: 410px) {
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+}
+</style>
+
+<body>
+    <header>
+        <h1><img src="pagdurusa-main.png" alt="Header Image" class="img-fluid"></h1>
+        </header>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="extracurricular.html">Extracurricular</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acad page.html">Academic Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="content" id="history">
+        <h2>Pagdurusa University</h2>
+        <p>Pagdurusa University is one of the oldest university in the Philippines.<br>
+            It has nurtured nagdurusang students that later on graduated to <br>feel more dusa than ever before! So what are you waiting for? <br> Be a Nagdurusang Student now!</p>
+    </div>
+
+    <div class="about" id="teachers">
+        <div class="about-header">
+            <h3>Teachers</h3>
+        </div>
+        <div class="about-content">
+            
+            <div class="tao1">
+                <div class="tao1-image">
+                    <img src="tipani.jpg" alt="tipani">
+                </div>
+                <div class="tao1-body">
+                    <h2>Tiffany Parrel</h2>
+                    <h5>Kabaliwan Teacher <p></p>
+                    </h5>
+                </div>
+            </div>
+            <div class="tao2">
+                <div class="tao2-image">
+                    <img src="hannah.png" alt="hannah">
+                </div>
+                <div class="tao2-body">
+                    <h2>Hannah Roque</h2>
+                    <h5>Karupukan Teacher</h5>
+                </div>
+            </div>
+            <div class="tao3">
+                <div class="tao3-image">
+                    <img src="althea.png" alt="althea">
+                </div>
+                <div class="tao3-body">
+                    <h2>Althea Lopez</h2>
+                    <h5>Katotohanan Teacher</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="administrators">
+        <div class="about-header">
+            <h3>Administrators</h3>
+        </div>
+        <div class="about-content">
+            <div class="tao1">
+                <div class="tao1-image">
+                    <img src="spongebob1.jpg" alt="sponge">
+                </div>
+                <div class="tao1-body">
+                    <h2>Spongebrobbed</h2>
+                </div>
+            </div>
+            <div class="tao2">
+                <div class="tao2-image">
+                    <img src="vice1.jpg" alt="vice">
+                </div>
+                <div class="tao2-body">
+                    <h2>Headmistress NotVice </h2>
+                </div>
+            </div>
+            <div class="tao3">
+                <div class="tao3-image">
+                    <img src="cow1.jpg" alt="cow">
+                </div>
+                <div class="tao3-body">
+                    <h2>Baka</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
